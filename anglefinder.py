@@ -2,6 +2,14 @@
 
 This script takes the dual angle layout of a bowling ball in degrees and
 converts it to inches.
+It expects 3 arguments in the following order:
+a drill angle, a pin to pap distance, and a val angle.
+
+Example usage:
+$ python anglefinder.py 50 4.5 55
+PSA to PAP = 4-2/8in
+Pin to PAP = 4.5in
+Pin Buffer = 3-3/8in
 
 Author: Matt Moran
 Date: 9/26/2019
